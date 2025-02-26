@@ -32,7 +32,7 @@
    - `tome`
    - `random`
    - `None`
-   To evaluate under hard selection, add args `if_hard=True` in model_args.
+   - To evaluate under hard selection, add args `if_hard=True` in model_args.
    
 3. **Evaluate without a trained predictor**:  
    By removing the path to the predictor, the evaluation will be performed with the untuned Siglip model.
@@ -44,8 +44,6 @@ To train the predictor, run:
 ```bash
 bash scripts/train_siglip.sh
 ```
-```
 
-## Citation
+## Acknowledgement
 This repository was built on [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT.git) and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
-```
