@@ -40,10 +40,7 @@
 ---
 
 ## Predictor Training
-To train the predictor, run:
-```bash
-bash scripts/train_siglip.sh
-```
+predictor training code and data will be released soon.
 
 ## Acknowledgement
 This repository was built on [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT.git) and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
