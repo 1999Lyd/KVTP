@@ -106,7 +106,7 @@ class DataCollator:
         return {"pixel_values": pixel_values, "input_ids": input_ids, "labels": labels}
 
 
-class CustomModel(torch.nn.Module):
+class Predictor(torch.nn.Module):
     def __init__(self, model):
         super().__init__()
         self.model = model
@@ -373,11 +373,11 @@ model = AutoModel.from_pretrained("google/siglip-so400m-patch14-384")
 
 model.gradient_checkpointing_enable()
 
-wrapped_model = CustomModel(model)
+wrapped_predictor = Predictor(model)
 
 
 trainer = Trainer(
-    model=wrapped_model,
+    model=wrapped_predictor,
     args=training_args,
     train_dataset=train_dataset,
     data_collator=DataCollator()
