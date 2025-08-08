@@ -1,4 +1,9 @@
 # KVTP
+
+[project page](https://1999lyd.github.io/)
+[paper](https://arxiv.org/abs/2503.10742)
+## 🚀 News  
+**July 2025:** *Keyframe-oriented Vision Token Pruning: Enhancing Efficiency of Large Vision-Language Models on Long-Form Video Processing* has been **accepted at ICCV 2025**! 🎉
 # Getting Started
 
 ## Installation and Setup
